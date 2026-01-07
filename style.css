@@ -1,0 +1,209 @@
+/* General reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light grey background */
+    color: #000; /* Black text */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #ccc; /* Light grey border */
+    background-color: #fff; /* White background */
+}
+
+.contact-info a,
+.social-links a {
+    color: #000; /* Black links */
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.contact-info .copy-btn,
+.contact-info .cv-btn {
+    background-color: #000; /* Black background for buttons */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.social-links a:hover,
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #000; /* Black button */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff; /* White background when hovered */
+    color: #000; /* Black text when hovered */
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000; /* Black text */
+}
+
+.hero h1 strong {
+    color: #000; /* Black strong text */
+}
+
+.latest-shots {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+}
+
+/* Brands section */
+.brands {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.brands img {
+    max-width: 150px;
+    margin: 20px;
+}
+
+/* Collaboration section */
+.collaboration {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.collaboration h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000; /* Black text */
+}
+
+/* Services section */
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.service {
+    text-align: center;
+    width: 23%;
+}
+
+.service img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.service h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000; /* Black text */
+}
+
+.service p {
+    font-size: 14px;
+    color: #000; /* Black text */
+}
+
+/* Footer styles */
+footer {
+    margin-top: 100px;
+    padding: 20px 0;
+    background-color: #e0e0e0; /* Grey background */
+    color: #000; /* Black text */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-contact {
+    width: 50%;
+}
+
+.footer-contact h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000; /* Black text */
+}
+
+.footer-buttons a {
+    background-color: #000; /* Black button */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer-buttons a:hover {
+    background-color: #fff; /* White background when hovered */
+    color: #000; /* Black text when hovered */
+}
+
+.footer-social {
+    width: 40%;
+}
+
+.footer-social p {
+    margin-bottom: 10px;
+    color: #000; /* Black text */
+}
+
+.footer-social ul {
+    list-style: none;
+}
+
+.footer-social li {
+    margin-bottom: 5px;
+}
+
+.footer-social a {
+    color: #000; /* Black links */
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #e0e0e0; /* Grey background */
+    color: #000; /* Black text */
+}
